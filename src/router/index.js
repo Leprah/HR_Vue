@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Dashboard from "../views/Dashboard.vue";
-import Tables from "../views/Tables.vue";
-import Billing from "../views/Billing.vue";
-import VirtualReality from "../views/VirtualReality.vue";
+import Teams from "../views/Teams.vue";
+import Task from "../views/Task.vue";
+import Recruitment from "../views/Recruitment.vue";
+import Term from "../views/Term.vue";
 import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
@@ -12,27 +12,27 @@ const routes = [
   {
     path: "/",
     name: "/",
-    redirect: "/dashboard-default",
+    redirect: "/teams",
   },
   {
-    path: "/dashboard-default",
-    name: "Dashboard",
-    component: Dashboard,
+    path: "/teams",
+    name: "Teams",
+    component: Teams,
   },
   {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
+    path: "/task",
+    name: "Task",
+    component: Task,
   },
   {
-    path: "/billing",
-    name: "Billing",
-    component: Billing,
+    path: "/recruitment",
+    name: "Recruitment",
+    component: Recruitment,
   },
   {
-    path: "/virtual-reality",
-    name: "Virtual Reality",
-    component: VirtualReality,
+    path: "/term",
+    name: "Term and Conditions",
+    component: Term,
   },
   {
     path: "/rtl-page",

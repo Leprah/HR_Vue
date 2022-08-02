@@ -55,7 +55,7 @@
   <div class="container-fluid">
     <div class=" row">
       <div class="col-12">
-        <authors-table />
+        <authors-table/>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ import GB from "@/assets/img/icons/flags/GB.png";
 import BR from "@/assets/img/icons/flags/BR.png";
 
 export default {
-  name: "dashboard-default",
+  name: "teams",
   data() {
     return {
       stats: {

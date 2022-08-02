@@ -22,7 +22,7 @@
       <router-link class="m-0 navbar-brand" to="/">
         <img
           :src="logofloo"
-          class="navbar-brand-img h-100 center"
+          class="navbar-brand-img h-100"
         />
       </router-link>
     </div>
