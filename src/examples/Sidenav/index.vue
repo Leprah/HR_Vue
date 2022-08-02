@@ -19,7 +19,7 @@
         aria-hidden="true"
         id="iconSidenav"
       ></i>
-      <router-link class="m-0 navbar-brand" to="/">
+      <router-link class="m-0 navbar-brand text-center" to="/">
         <img
           :src="logofloo"
           class="navbar-brand-img h-100"

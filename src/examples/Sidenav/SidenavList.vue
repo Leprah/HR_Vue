@@ -6,7 +6,7 @@
     <ul class="navbar-nav">
       <li class="nav-item">
         <sidenav-item
-          url="/dashboard-default"
+          url="/teams"
           :class="getRoute() === 'dashboard-default' ? 'active' : ''"
           navText='Teams'
         >
@@ -17,7 +17,7 @@
       </li>
       <li class="nav-item">
         <sidenav-item
-          url="/tables"
+          url="/task"
           :class="getRoute() === 'tables' ? 'active' : ''"
           navText='Task'
         >
@@ -30,7 +30,7 @@
       </li>
       <li class="nav-item">
         <sidenav-item
-          url="/billing"
+          url="/recruitment"
           :class="getRoute() === 'billing' ? 'active' : ''"
           navText='Recruitment'
         >
@@ -41,7 +41,7 @@
       </li>
       <li class="nav-item">
         <sidenav-item
-          url="/virtual-reality"
+          url="/term"
           :class="getRoute() === 'virtual-reality' ? 'active' : ''"
           navText="Terms & Conditions"
         >
