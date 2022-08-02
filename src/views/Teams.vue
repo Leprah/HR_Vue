@@ -1,50 +1,50 @@
 <template>
-  <div class="py-4 container-fluid">
-    <div class="row">
+  <div class="pt-4 container-fluid">
+    <div class="row py-0">
       <div class="col-lg-12">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
             <card
-              :title="stats.money.title"
-              :value="stats.money.value"
-              :percentage="stats.money.percentage"
-              :iconClass="stats.money.iconClass"
-              :iconBackground="stats.money.iconBackground"
-              :detail="stats.money.detail"
+              :title="stats.karyawan.title"
+              :value="stats.karyawan.value"
+              :percentage="stats.karyawan.percentage"
+              :iconClass="stats.karyawan.iconClass"
+              :iconBackground="stats.karyawan.iconBackground"
+              :detail="stats.karyawan.detail"
               directionReverse
             ></card>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <card
-              :title="stats.users.title"
-              :value="stats.users.value"
-              :percentage="stats.users.percentage"
-              :iconClass="stats.users.iconClass"
-              :iconBackground="stats.users.iconBackground"
-              :detail="stats.users.detail"
+              :title="stats.hadir.title"
+              :value="stats.hadir.value"
+              :percentage="stats.hadir.percentage"
+              :iconClass="stats.hadir.iconClass"
+              :iconBackground="stats.hadir.iconBackground"
+              :detail="stats.hadir.detail"
               directionReverse
             ></card>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <card
-              :title="stats.clients.title"
-              :value="stats.clients.value"
-              :percentage="stats.clients.percentage"
-              :iconClass="stats.clients.iconClass"
-              :iconBackground="stats.clients.iconBackground"
-              :percentageColor="stats.clients.percentageColor"
-              :detail="stats.clients.detail"
+              :title="stats.recruitment.title"
+              :value="stats.recruitment.value"
+              :percentage="stats.recruitment.percentage"
+              :iconClass="stats.recruitment.iconClass"
+              :iconBackground="stats.recruitment.iconBackground"
+              :percentageColor="stats.recruitment.percentageColor"
+              :detail="stats.recruitment.detail"
               directionReverse
             ></card>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <card
-              :title="stats.sales.title"
-              :value="stats.sales.value"
-              :percentage="stats.sales.percentage"
-              :iconClass="stats.sales.iconClass"
-              :iconBackground="stats.sales.iconBackground"
-              :detail="stats.sales.detail"
+              :title="stats.project.title"
+              :value="stats.project.value"
+              :percentage="stats.project.percentage"
+              :iconClass="stats.project.iconClass"
+              :iconBackground="stats.project.iconBackground"
+              :detail="stats.project.detail"
               directionReverse
             ></card>
           </div>
@@ -53,7 +53,7 @@
     </div>
   </div>
   <div class="container-fluid">
-    <div class=" row">
+    <div class="row">
       <div class="col-12">
         <authors-table/>
       </div>
@@ -78,26 +78,26 @@ export default {
   data() {
     return {
       stats: {
-        money: {
+        karyawan: {
           title: "Total Karyawan",
           value: "17",
           iconClass: "ni ni-money-coins",
           iconBackground: "bg-gradient-primary",
         },
-        users: {
-          title: "Total Hadi Harini",
+        hadir: {
+          title: "Hadir Hari Ini",
           value: "16",
           iconClass: "ni ni-world",
           iconBackground: "bg-gradient-danger",
         },
-        clients: {
+        recruitment: {
           title: "Total Recruitment",
           value: "21",
           iconClass: "ni ni-paper-diploma",
           percentageColor: "text-danger",
           iconBackground: "bg-gradient-success",
         },
-        sales: {
+        project: {
           title: "Total Project",
           value: "5",
           iconClass: "ni ni-cart",
