@@ -1,17 +1,8 @@
 <template>
   <aside
-    class="overflow-auto sidenav navbar navbar-vertical navbar-expand-xs"
-    :class="`${
-      this.$store.state.isRTL
-        ? 'me-3 rotate-caret fixed-end'
-        : 'fixed-start'
-    } 
-    ${
-      this.$store.state.layout === 'landing'
-        ? 'bg-transparent shadow-none'
-        : ' '
-    } ${this.$store.state.sidebarType}`"
+    class="overflow-auto sidenav navbar navbar-vertical navbar-expand-xs bg-white"
     id="sidenav-main"
+    data-color="success"
   >
     <div class="sidenav-header center">
       <i

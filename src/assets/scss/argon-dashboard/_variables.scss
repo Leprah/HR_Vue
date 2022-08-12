@@ -9,11 +9,12 @@ $h-color:               #344767 !default;
 
 // Color system
 
+$success:  #00B788 !default;
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
+$gray-400: #EBEFF4 !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
@@ -55,7 +56,7 @@ $colors: (
 $primary:       #5e72e4 !default;
 $secondary:     #8392ab !default;
 $info:          #11cdef !default;
-$success:       #2dce89 !default;
+$success:       #00B788 !default;
 $warning:       #fb6340 !default;
 $danger:        #f5365c !default;
 $light:         $gray-200 !default;

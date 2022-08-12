@@ -7,7 +7,7 @@
       <li class="nav-item">
         <sidenav-item
           url="/teams"
-          :class="getRoute() === 'dashboard-default' ? 'active' : ''"
+          :class="getRoute() === 'teams' ? 'active' : ''"
           navText='Teams'
         >
           <template v-slot:icon>
@@ -18,7 +18,7 @@
       <li class="nav-item">
         <sidenav-item
           url="/task"
-          :class="getRoute() === 'tables' ? 'active' : ''"
+          :class="getRoute() === 'task' ? 'active' : ''"
           navText='Task'
         >
           <template v-slot:icon>
@@ -31,7 +31,7 @@
       <li class="nav-item">
         <sidenav-item
           url="/recruitment"
-          :class="getRoute() === 'billing' ? 'active' : ''"
+          :class="getRoute() === 'Recruitment' ? 'active' : ''"
           navText='Recruitment'
         >
           <template v-slot:icon>
@@ -42,7 +42,7 @@
       <li class="nav-item">
         <sidenav-item
           url="/term"
-          :class="getRoute() === 'virtual-reality' ? 'active' : ''"
+          :class="getRoute() === 'cons' ? 'active' : ''"
           navText="Terms & Conditions"
         >
           <template v-slot:icon>

@@ -1,7 +1,7 @@
 <template>
-  <div class="card">
+  <div class="card ">
     <div class="card-header pb-0">
-      <h6>Karyawan</h6>
+      <h6 class="text-success font-weight-bold">Daftar Karyawan</h6>
     </div>
     <div class="card-body px-0 pt-0 pb-2">
       <div class="table-responsive p-0">
@@ -122,10 +122,10 @@
                 <p class="text-xs font-weight-bold mb-0">Back-end</p>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">07:30</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">07:30</span>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">17:01</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">17:01</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold">19/09/17</span>
@@ -159,10 +159,10 @@
                 <p class="text-xs font-weight-bold mb-0">Front-end</p>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">07:45</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">07:45</span>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">17:01</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">17:01</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold">24/12/08</span>
@@ -196,10 +196,10 @@
                 <p class="text-xs font-weight-bold mb-0">Mobile Developer</p>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">07:45</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">07:45</span>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">17:45</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">17:45</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold">04/10/21</span>
@@ -233,10 +233,10 @@
                 <p class="text-xs font-weight-bold mb-0">DevOps</p>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">07:30</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">07:30</span>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">17:30</span>
+                <span class="text-secondary text-xs font-weight-bold text-success">17:30</span>
               </td>
               <td class="align-middle text-center">
                 <span class="text-secondary text-xs font-weight-bold">14/09/20</span>

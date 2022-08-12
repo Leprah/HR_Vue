@@ -1,21 +1,15 @@
 <template>
   <nav
-    class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl position-sticky bg-white left-auto top-2 z-index px-0 mx-4 position-sticky bg-white left-auto top-2 z-index-sticky px-0 mx-4"
+    class="navbar navbar-main navbar-expand-lg bg-white px-0 mx-4 shadow-none border-radius-xl position-sticky bg-white left-auto top-2 z-index px-0 mx-4 position-sticky bg-white left-auto top-2 z-index-sticky px-0 mx-4"
     v-bind="$attrs"
     id="navbarBlur"
-    data-scroll="true"
   >
     <div class="px-3 py-1 container-fluid">
       <breadcrumbs :currentPage="currentRouteName" textWhite="text-dark" />
-
       <div
         class="mt-2 collapse navbar-collapse mt-sm-0 me-md-0 me-sm-4"
-        id="navbar"
-      >
-        <div
-          class="pe-md-3 d-flex align-items-center ms-md-auto"
-        >
-        </div>
+        id="navbar">
+        <div class="pe-md-3 d-flex align-items-center ms-md-auto"></div>
         <ul class="navbar-nav justify-content-end">
           <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
             <a
@@ -43,7 +37,7 @@
               aria-expanded="false"
               @click="showMenu = !showMenu"
             >
-              <i class="cursor-pointer fa fa-bell"></i>
+              <i class="cursor-pointer fa fa-bell use"></i>
             </a>
             <ul
               class="px-2 py-3 dropdown-menu dropdown-menu-end me-sm-n4"
@@ -161,12 +155,14 @@
 <script>
 import Breadcrumbs from "../Breadcrumbs.vue";
 import { mapMutations, mapActions } from "vuex";
+// import Avatar from "./assets/img/bruce-mars.png";
 
 export default {
   name: "navbar",
   data() {
     return {
       showMenu: false
+      // Avatar
     };
   },
   props: ["minNav", "textWhite"],

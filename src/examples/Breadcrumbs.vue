@@ -8,14 +8,13 @@
          class="opacity-8" href="#">Pages</a>
       </li>
       <li
-        class="text-sm breadcrumb-item active"
-        :class="this.$store.state.isNavFixed ? 'text-dark' : 'text-dark'"
+        class="text-sm breadcrumb-item active text-dark"
         aria-current="page"
       >
         {{ currentPage }}
       </li>
     </ol>
-    <h6 class="mb-0 font-weight-bolder" :class="this.$store.state.isNavFixed ? 'text-dark' : 'text-dark'">
+    <h6 class="mb-0 font-weight-bolder text-success">
       {{ currentPage }}
     </h6>
   </nav>

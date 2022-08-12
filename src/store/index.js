@@ -16,7 +16,7 @@ export default createStore({
     showNavbar: true,
     showFooter: true,
     showMain: true,
-    layout: "default"
+    layout: ""
   },
   mutations: {
     toggleConfigurator(state) {
@@ -40,7 +40,7 @@ export default createStore({
     },
     navbarFixed(state) {
       if (state.isNavFixed === false) {
-        state.isNavFixed = true;
+        state.isNavFixed = false;
       } else {
         state.isNavFixed = false;
       }

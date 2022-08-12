@@ -3,7 +3,6 @@ import Teams from "../views/Teams.vue";
 import Task from "../views/Task.vue";
 import Recruitment from "../views/Recruitment.vue";
 import Term from "../views/Term.vue";
-import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
 import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
@@ -33,11 +32,6 @@ const routes = [
     path: "/term",
     name: "Term and Conditions",
     component: Term,
-  },
-  {
-    path: "/rtl-page",
-    name: "RTL",
-    component: RTL,
   },
   {
     path: "/profile",

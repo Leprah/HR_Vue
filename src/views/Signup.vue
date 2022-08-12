@@ -126,7 +126,7 @@
       </div>
     </div>
   </main>
-  <app-footer />
+  <app-footer/>
 </template>
 
 <script>

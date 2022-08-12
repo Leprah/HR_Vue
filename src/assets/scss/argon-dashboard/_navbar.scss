@@ -48,8 +48,8 @@
     .navbar-collapse.show,
     .navbar-collapse.collapsing
     {
-      .dropdown-header.text-dark{
-        color: $white !important;
+      .dropdown-header.text-success{
+        color: $success !important;
       }
     }
   }
